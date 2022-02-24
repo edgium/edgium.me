@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## edgium.me
 
-You can use the [editor on GitHub](https://github.com/edgium/edgium.me/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+DNS wildcard tão simples, que você ficará mal acostumado!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Pare de editar manualmente seu arquivo **hosts**, use o [edgium.me](https://edgium.me) para gerenciar seu DNS.
 
-### Markdown
+### Exemplos de uso
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Diretamente com o IP:
+- **10.0.0.1.edgium.me** traduz para **10.0.0.1**
+- **192-168-1-250.edgium.me** traduz para **192.168.1.250**
+- **0a000803.edgium.me** traduz para **10.0.8.3**
+#### With a name:
+- **app.10.8.0.1.edgium.me** traduz para **10.8.0.1**
+- **app-116-203-255-68.edgium.me** traduz para **116.203.255.68**
+- **app-c0a801fc.edgium.me** traduz para **192.168.1.252**
+- **customer1.app.10.0.0.1.edgium.me** traduz para **10.0.0.1**
+- **customer2-app-127-0-0-1.edgium.me** traduz para **127.0.0.1**
+- **customer3-app-7f000101.edgium.me** traduz para **127.0.1.1**
 
-```markdown
-Syntax highlighted code block
+#### [edgium.me](https://edgium.me) também traduz **<anything>[.-]\<Endereço IP\>.edgium.me** em notações de **"ponto"**, **"traço"** ou **"hexadecimal"** para o **\<Endereço IP\>** correspondente:
 
-# Header 1
-## Header 2
-### Header 3
+- notação de ponto: **magic.127.0.0.1.edgium.me**
+- notação de traço: **magic-127-0-0-1.edgium.me**
+- notação de hexadecimal: **magic-7f000001.edgium.me**
 
-- Bulleted
-- List
+### Algo mais?
 
-1. Numbered
-2. List
+Dúvidas, sugestões ou problemas? Manda um issue ou pull request aqui em nosso repositório: https://github.com/edgium/edgium.me
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edgium/edgium.me/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Licença
+Projeto concebido com base em [nip.io](https://nip.io/)
