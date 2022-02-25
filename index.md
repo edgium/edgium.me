@@ -25,7 +25,6 @@ Pare de editar manualmente seu arquivo **hosts**, use o [edgium.me](https://edgi
 - notação de hexadecimal: **magic-7f000001.edgium.me**
 
 ### Algo mais?
-
 Dúvidas, sugestões ou problemas? Manda um issue ou pull request aqui em nosso repositório: https://github.com/edgium/edgium.me
 
 ### Licença
