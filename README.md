@@ -1,2 +1,3 @@
 # edgium.me
-edgium.me simplifies wildcard DNS for any IP Address
+
+edgium.me, seu parceiro de todo dia!
