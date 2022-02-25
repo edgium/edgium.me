@@ -1,2 +1,22 @@
+timezone: "America/Sao_Paulo"
+date_format: "%B %-d, %Y"
 theme: jekyll-theme-cayman
-site_favicon: assets/edgium-logo-icone.ico
+markdown: kramdown
+kramdown:
+  input: GFM
+
+title-img: "/assets/edgium-logo-assinado-preto-horiz.png"
+avatar: "/assets/edgium-logo-icone.ico"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+social-network-links:
+  email: "contato@edgium.net"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  facebook: edgium
+  github: edgium
+  twitter: edgium
+  linkedin: edgium
+  youtube: edgium
